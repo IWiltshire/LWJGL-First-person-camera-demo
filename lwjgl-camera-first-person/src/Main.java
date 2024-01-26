@@ -87,9 +87,9 @@ class Window {
         while (!glfwWindowShouldClose(window)) {
             float currentFrame = (float) glfwGetTime();
             deltaTime = currentFrame - lastTime;
-            lastTime = currentFrame; // Should this be here and not the bottom of the loop?
+            lastTime = currentFrame;
 
-            // Will setup checking for inputs later
+            // Checking for inputs
             camera.processInput(screen);
     
             // Render loop: All of the rendering should be done in this block
