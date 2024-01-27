@@ -34,7 +34,7 @@ class Window {
     static long window;
 
     static int SCR_WIDTH = 1280, SCR_HEIGHT = 720; // Width and height in px
-    String title = "Miss Bernard can't stop spinning!";
+    String title = "LWJGL camera demo";
     
     // Camera
     public static Camera camera = new Camera();
